@@ -1,10 +1,10 @@
 <?php
-// session_start();
+session_start();
 date_default_timezone_set('Asia/Kolkata');
-// if(!isset($_SESSION['admin']['status']))
-// 	{
-// 	header("location:login.php");
-// 	}
+if(!isset($_SESSION['admin']['status']))
+	{
+	header("location:login.php");
+	}
 	error_reporting(0);
 	include("../include/config.php");
 	$dsq="select * from shows";
@@ -36,7 +36,7 @@ date_default_timezone_set('Asia/Kolkata');
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Easy Movies  - Admin Panel</title>
+  <title>Afica's Movie Booking #1  - Admin Panel</title>
 
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -175,7 +175,7 @@ date_default_timezone_set('Asia/Kolkata');
 
         <!-- Topbar -->
         <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-            <a href="../../movies/" target="_blank" ><i class="fa fa-eye"></i> Preview</a>
+            <a href="/movies/" target="_blank" ><i class="fa fa-eye"></i> Preview</a>
           <!-- Sidebar Toggle (Topbar) -->
           <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
             <i class="fa fa-bars"></i>

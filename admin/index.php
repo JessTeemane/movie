@@ -6,7 +6,7 @@
 	$total=0;
 	$ttlbooking =0;
 	while($row=mysqli_fetch_array($res))
-	{ 
+	{
 		$total=$total+$row['b_amt'];
 		$ttlbooking=$ttlbooking+$row['b_seat'];
 	}

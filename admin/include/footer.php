@@ -6,7 +6,8 @@
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright &copy;2020 <a href="http://teecloudytech.com">TeecloudyTech</a></span>
+            <span>&copy; 2020 Back-end by <a href="http://teecloudytech.com">Ashly</a> 
+            | Front-End by Jessica | Architecture by Michelle | UI by Martha</span>
           </div>
         </div>
       </footer>

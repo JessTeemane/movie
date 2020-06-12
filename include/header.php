@@ -1,5 +1,5 @@
 <?php include('config.php');
-// session_start();
+session_start();
 date_default_timezone_set('Asia/Kolkata');
 error_reporting(0);
 
@@ -7,7 +7,7 @@ error_reporting(0);
 <!DOCTYPE html>
 <html>
 <head>
-<title>Easy Movie Booking</title>
+<title>EasyMovie Theatre Online Booking System</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
 <link rel="stylesheet" href="css/menu.css" />
@@ -57,7 +57,7 @@ error_reporting(0);
 		  <div class="main-content">
 			<div class="header">
 				<div class="logo">
-					<a href="index.php"><h1>Easy Movie Booking</h1></a>
+					<a href="index.php"><h1>EasyMovie Theatre Online Booking System</h1></a>
 				</div>
 				
 				<div class="clearfix"></div>
